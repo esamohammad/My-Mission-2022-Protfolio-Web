@@ -135,6 +135,7 @@
       background-color: rgb(12, 171, 54);
    }
 
+
    width-half {
       width: 50%;
       padding: 2%;
@@ -168,7 +169,7 @@
    .width-one-thidr img {
       box-sizing: border-box;
       width: 45%;
-      margin margin: auto;
+      margin: auto;
       border-radius: px;
       display: block;
       margin-left: auto;
@@ -200,29 +201,199 @@
       margin-left: 0px;
       margin-right: 0px;
       margin-top: 120px;
-  }
-  .width-one-third-project-pic {
-   width: 100%;
-   height: 100%;
-   padding-right: 51px;
-   border-radius: 20px;
-   margin-left: 18px;
-   margin-right: 0px;
-   margin-top: 120px;
+   }
+
+   .width-one-third-project-pic {
+      width: 100%;
+      height: 100%;
+      padding-right: 51px;
+      border-radius: 20px;
+      margin-left: 18px;
+      margin-right: 0px;
+      margin-top: 120px;
+   }
+
+   .width-two-third-project {
+      width: 60%;
+      padding-left: 50px;
+      padding-right: 30px;
+      padding-top: 20px;
+      margin-left: 1px;
+      margin-right: -14px;
+   }
+
 }
-
-.width-two-third-project {
-   width: 60%;
-   padding-left: 50px;
-   padding-right: 30px;
-   padding-top: 20px;
-   margin-left: 1px;
-   margin-right: -14px;
-}
-
-
 
 /* ==========================================================================
    Mobile Layout: 320px.
    ========================================================================== */
-@media only screen and (min-width: 200px) and (max-width: 479px) {}
+@media only screen and (min-width: 200px) and (max-width: 479px) {
+   body {
+      background-color: rgba(237, 10, 10, 0);
+   }
+
+   .flexible-container-one {
+      display: flex;
+      height: 100vh;
+      margin-bottom: 150px;
+      flex-direction: column;
+      align-items: center;
+   }
+
+
+
+
+   .width-half {
+      width: 75%;
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+
+   h1 {
+      font-size: 32px;
+   }
+
+   h2 {
+      font-size: 23px;
+   }
+
+   p {
+      font-size: 16px;
+   }
+
+   .link-button {
+      font-size: 17px;
+   }
+
+   .black-colored {
+      color: black;
+   }
+
+   h3 {
+      font-size: 25px;
+      text-align: center;
+      /* margin-left: auto; */
+      /* margin-right: 56px; */
+   }
+
+
+   .flexible-container-two {
+      display: flex;
+      height: auto;
+      margin-bottom: 75px;
+      flex-direction: column;
+      /* margin-left: 30px; */
+      /* margin-right: auto; */
+      align-items: center;
+   }
+
+   .width-one-thidr {
+      width: 75%;
+      box-sizing: border-box;
+      border: 1px solid grey;
+      border-radius: 19px;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 17px;
+      padding-bottom: 40px;
+      margin-bottom: 50px;
+   }
+
+
+
+   .width-one-third {
+      width: 69%;
+      padding: 30px;
+      margin-left: -188px;
+   }
+
+   .width-one-third img {
+      width: 130%;
+      border-radius: 25px;
+      margin-left: 20px;
+      margin-right: 25px;
+  }
+
+   .flexible-container-four {
+      display: flex;
+      margin-bottom: 80px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+   }
+
+   .bg-img {
+      background-image: url(images/my-bg.png);
+      background-repeat: no-repeat;
+      background-size: 27%;
+      padding-top: -14px;
+   }
+
+   .width-two-third {
+      width: 84%;
+      padding-left: -3%;
+      /* padding-right: 5%; */
+      /* padding-top: 20px; */
+      margin-left: -18px;
+      margin-right: 40px;
+   }
+
+   /* .width-one-third img {
+      width: 127%;
+      border-radius: 37px;
+      margin-left: 36px;
+      /* margin-right: 24px; */
+   */
+   /* .width-two-third {
+      width: 84%;
+      padding-left: -3%;
+      /* padding-right: 5%; */
+   /* padding-top: 20px; */
+   margin-left: 30px;
+   margin-right: 40px;
+
+   */ .flexible-container-four {
+      display: flex;
+      margin-bottom: 80px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+   }
+
+   .width-two-third-project {
+      width: 84%;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 0px;
+      margin-left: 7px;
+      margin-right: 23px;
+   }
+
+
+
+   .width-one-third-project-pic {
+      width: 84%;
+      margin-right: 11px;
+      padding-top: 88px;
+   }
+
+   .width-one-third-project-pic img {
+      width: 100%;
+      border-radius: 24px;
+   }
+
+   footer p {
+      /* font-family: 'Shrikhand', cursive; */
+      /* text-align: center; */
+      /* color: black; */
+      /* background-image: linear-gradient(rgb(39, 233, 240), rgba(13, 3, 102, 0.719)); */
+      /* height: 172px; */
+      font-size: 30px;
+      padding-top: 60px;
+   }
+
+
+   small {
+      font-size: 17px;
+   }
+}
