@@ -1,7 +1,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 0px;
+    margin-top: 0px;
 
 }
 
@@ -38,12 +40,14 @@ h4 {
 .black-colored {
     color: black;
 }
+
 .red-colored {
     color: rgb(247, 4, 4);
 
 }
+
 p {
-    font-size: 18px;
+    font-size: 24px;
     color: rgba(23, 24, 24, 0.849);
     word-spacing: 1px;
     text-align: justify;
@@ -53,7 +57,8 @@ p {
 
 .flexible-container-one {
     display: flex;
-    margin-bottom: 200px;
+    height: 100vh;
+
 }
 
 .left-border {

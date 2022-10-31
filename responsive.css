@@ -1,0 +1,209 @@
+/* ==========================================================================
+   Medium Layout: 1280px.
+   ========================================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   body {
+      background-color: aqua;
+
+   }
+
+   width-half {
+      width: 37%;
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+
+   h1 {
+      font-size: 43px;
+   }
+
+   h2 {
+      font-size: 32px;
+
+   }
+
+   p {
+      font-size: 22px;
+   }
+
+   .width-half img {
+      width: 90%;
+      margin-top: 50px;
+   }
+
+   .black-colored {
+      font-size: 20px;
+   }
+
+   .width-one-third img {
+      width: 130%;
+      border-radius: 100px;
+      margin-left: 20px;
+      margin-right: 25px;
+      margin-top: 150px;
+   }
+
+   .width-one-third-project-pic {
+      width: 40%;
+      margin-right: 80px;
+      margin-top: 150px;
+   }
+
+}
+
+/* ==========================================================================
+   Tablet Layout: 768px. 
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+   body {
+      background-color: antiquewhite;
+   }
+
+   width-half {
+      width: 37%;
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+
+   h1 {
+      font-size: 32px;
+   }
+
+   h2 {
+      font-size: 25px;
+
+   }
+
+   p {
+      font-size: 22px;
+   }
+
+   .width-half img {
+      width: 90%;
+      margin-top: 100px;
+   }
+
+   .black-colored {
+      font-size: 20px;
+   }
+
+   .width-one-thidr img {
+
+      margin-bottom: -26px;
+      margin-left: 58px;
+      margin-right: 50px;
+   }
+
+   .width-one-third {
+      width: 40%;
+
+      margin-left: -1px;
+      margin-top: 150px;
+   }
+
+
+   .width-one-third-project-pic {
+      width: 40%;
+      margin-right: 48px;
+      margin-top: 170px;
+   }
+
+
+
+
+
+
+
+
+}
+
+/* ==========================================================================
+   Wide Mobile Layout: 480px.
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+   body {
+      background-color: rgb(231, 31, 41);
+   }
+
+   width-half {
+      width: 37%;
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+
+   h1 {
+      font-size: 32px;
+   }
+
+   h2 {
+      font-size: 25px;
+
+   }
+
+   p {
+      font-size: 22px;
+   }
+
+   .width-half img {
+      width: 90%;
+      margin-top: 100px;
+   }
+
+   .black-colored {
+      font-size: 20px;
+   }
+
+   .width-one-thidr img {
+
+      margin-bottom: -26px;
+      margin-left: 58px;
+      margin-right: 50px;
+   }
+
+   .width-one-third {
+      width: 40%;
+
+      margin-left: -1px;
+      margin-top: 150px;
+   }
+
+
+   .width-one-third-project-pic {
+      width: 40%;
+      margin-right: 48px;
+      margin-top: 170px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* ==========================================================================
+   Mobile Layout: 320px.
+   ========================================================================== */
+@media only screen and (min-width: 200px) and (max-width: 479px) {}
