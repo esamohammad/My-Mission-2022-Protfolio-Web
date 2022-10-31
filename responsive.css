@@ -7,6 +7,7 @@
 
    }
 
+
    width-half {
       width: 37%;
       padding-left: 5%;
@@ -38,15 +39,15 @@
    .width-one-third img {
       width: 130%;
       border-radius: 100px;
-      margin-left: 20px;
+      /* margin-left: 20px;
       margin-right: 25px;
-      margin-top: 150px;
+      margin-top: 150px; */
    }
 
    .width-one-third-project-pic {
       width: 40%;
       margin-right: 80px;
-      margin-top: 150px;
+      margin-top: 100px;
    }
 
 }
@@ -61,9 +62,8 @@
    }
 
    width-half {
-      width: 37%;
-      padding-left: 5%;
-      padding-right: 5%;
+      width: 50%;
+      padding: 2%;
    }
 
    h1 {
@@ -76,12 +76,15 @@
    }
 
    p {
-      font-size: 22px;
+      font-size: 19px;
+      color: rgba(23, 24, 24, 0.849);
+      word-spacing: 0;
+      text-align: left;
    }
 
    .width-half img {
-      width: 90%;
-      margin-top: 100px;
+      width: 100%;
+      margin-top: 50px;
    }
 
    .black-colored {
@@ -95,6 +98,11 @@
       margin-right: 50px;
    }
 
+   .flexible-container-two {
+      height: 600px;
+
+   }
+
    .width-one-third {
       width: 40%;
 
@@ -106,7 +114,7 @@
    .width-one-third-project-pic {
       width: 40%;
       margin-right: 48px;
-      margin-top: 170px;
+      margin-top: 140px;
    }
 
 
@@ -124,13 +132,12 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
    body {
-      background-color: rgb(231, 31, 41);
+      background-color: rgb(12, 171, 54);
    }
 
    width-half {
-      width: 37%;
-      padding-left: 5%;
-      padding-right: 5%;
+      width: 50%;
+      padding: 2%;
    }
 
    h1 {
@@ -143,12 +150,15 @@
    }
 
    p {
-      font-size: 22px;
+      font-size: 19px;
+      color: rgba(23, 24, 24, 0.849);
+      word-spacing: 0;
+      text-align: left;
    }
 
    .width-half img {
-      width: 90%;
-      margin-top: 100px;
+      width: 100%;
+      margin-top: 50px;
    }
 
    .black-colored {
@@ -156,10 +166,19 @@
    }
 
    .width-one-thidr img {
+      box-sizing: border-box;
+      width: 45%;
+      margin margin: auto;
+      border-radius: px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+   }
 
-      margin-bottom: -26px;
-      margin-left: 58px;
-      margin-right: 50px;
+   .flexible-container-two {
+      height: 600px;
+
    }
 
    .width-one-third {
@@ -173,30 +192,8 @@
    .width-one-third-project-pic {
       width: 40%;
       margin-right: 48px;
-      margin-top: 170px;
+      margin-top: 140px;
    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

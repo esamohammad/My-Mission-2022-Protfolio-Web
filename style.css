@@ -58,6 +58,7 @@ p {
 .flexible-container-one {
     display: flex;
     height: 100vh;
+    margin-bottom: auto;
 
 }
 
@@ -101,8 +102,11 @@ p {
 
 .flexible-container-two {
     display: flex;
-    margin-bottom: 200px;
-    margin-left: 8%;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    height: 700px;
+    margin-bottom: 75px;
 }
 
 .width-one-thidr {
@@ -114,19 +118,23 @@ p {
     padding-right: 15px;
     padding-top: 3px;
     padding-bottom: 40px;
-    margin-left: 20px;
+
 }
 
 
 .width-one-thidr img {
     box-sizing: border-box;
     width: 45%;
+    margin margin: auto;
     border-radius: px;
-    margin-bottom: 0px;
-    margin-left: 95px;
-    margin-right: 50px;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
+
+
 
 
 #bg-color-1 {
@@ -143,7 +151,7 @@ p {
 
 .flexible-container-three {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
 }
 
 .width-one-third {
