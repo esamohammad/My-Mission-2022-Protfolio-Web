@@ -7,6 +7,13 @@
 
    }
 
+   .flexible-container-one {
+
+      height: 100vh;
+
+
+   }
+
 
    width-half {
       width: 37%;
@@ -60,7 +67,13 @@
    body {
       background-color: antiquewhite;
    }
+   .flexible-container-one {
 
+      height: 500px;
+      margin-bottom: 100px;
+
+
+   }
    width-half {
       width: 50%;
       padding: 2%;
@@ -143,7 +156,13 @@
       background-color: rgb(12, 171, 54);
    }
 
+   .flexible-container-one {
 
+      height: 500px;
+      margin-bottom: 100px;
+
+
+   }
    width-half {
       width: 50%;
       padding: 2%;
