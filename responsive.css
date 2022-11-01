@@ -98,6 +98,15 @@
       margin-right: 50px;
    }
 
+   .width-one-third img {
+      width: 130%;
+      height: 257px;
+      border-radius: 33px;
+      margin-left: 20px;
+      margin-right: 25px;
+   }
+
+
    .flexible-container-two {
       height: 600px;
 
@@ -105,9 +114,8 @@
 
    .width-one-third {
       width: 40%;
-
       margin-left: -1px;
-      margin-top: 150px;
+      margin-top: 87px;
    }
 
 
@@ -312,7 +320,7 @@
       border-radius: 25px;
       margin-left: 20px;
       margin-right: 25px;
-  }
+   }
 
    .flexible-container-four {
       display: flex;
