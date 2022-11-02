@@ -220,6 +220,7 @@ footer p {
     color: black;
     background-image: linear-gradient(rgb(39, 233, 240), rgba(13, 3, 102, 0.719));
     height: 250px;
+    width: 100%;
     font-size: 30px;
     padding-top: 60px;
 }
