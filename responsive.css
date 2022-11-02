@@ -418,7 +418,8 @@
       background-image: linear-gradient(rgb(9 243 243), rgb(12 171 24));
       /* height: 172px; */
       font-size: 30px;
-      padding-top: 60px;
+      padding-top: 14px;
+      height: 100px;
    }
 
 
